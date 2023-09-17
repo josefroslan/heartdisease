@@ -1,3 +1,5 @@
+<img src="https://github.com/josefroslan/heartdisease/blob/main/img/background.jpg" alt="Background">
+
 # Heart Disease Prediction
 
 - [Heart Disease Prediction](#heart-disease-prediction)
