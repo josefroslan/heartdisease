@@ -8,6 +8,7 @@
   - [Data Visualizations](#data-visualizations)
   - [Predictive Modeling](#predictive-modeling)
   - [Conclusion](#conclusion)
+  - [License](#license)
 
 This project aims to predict the likelihood of individuals having heart disease and identify the most important features associated with heart disease. We will explore a dataset containing various health attributes and use predictive modeling techniques to accomplish this goal.
 
@@ -36,16 +37,14 @@ We conducted exploratory data analysis (EDA) to gain insights into the dataset. 
 - **Age:** Older individuals have a higher likelihood of having heart disease.
 - **Sex:** Male individuals have a higher likelihood of having heart disease compared to females.
 - **Chest Pain:** Individuals with asymptomatic chest pain have a higher likelihood of having heart disease.
-- **Resting Blood Pressure:** There is a significant difference in resting blood pressure between individuals with and without heart disease.
-- **Cholesterol:** Cholesterol levels do not show a significant difference between the two groups.
-- **Fasting Blood Sugar:** No significant difference in fasting blood glucose between individuals with and without heart disease.
-- **Resting ECG:** Resting ECG results show a significant difference between the two groups.
+- **Resting Blood Pressure:** Even though median resting blood pressure is similar for individual with and without heart disease, the maximum and minimum resting blood pressure tend to be significantly higher in individuals with heart disease.
+- **Resting ECG:** LVH and abnormal ST-T waves is more prevalent among individuals with heart disease compared to without heart disease.
 - **Maximum Heart Rate:** Individuals with heart disease tend to have lower maximum heart rates.
-- **Exercise-induced Angina:** There is a significant difference in exercise-induced angina between individuals with and without heart disease.
+- **Exercise-induced Angina:** Individuals with exercise-induced angina tend to have a higher prevalence of heart disease compared to those without exercise-induced angina.
 - **Exercise-induced ST Depression:** There is a significant difference in exercise-induced ST depression between individuals with and without heart disease.
-- **Slope of Peak Exercise ST Segment:** There is a significant difference in the slope of the peak exercise ST segment.
+- **Slope of Peak Exercise ST Segment:** Relatively high number of individuals with heart disease have a flat slope, while fewer have an upsloping or downsloping slope.
 - **Number of Major Vessels Blockage:** Individuals with more colored vessels tend to have a higher prevalence of heart disease.
-- **Thallium Stress Test:** There is a significant difference in thallium stress test results.
+- **Thallium Stress Test:** Individuals with a reversible defect in the thallium stress test tend to have a higher prevalence of heart disease compared to those with fixed defect or normal results.
 
 ## Data Visualizations
 <img src="https://github.com/josefroslan/heartdisease/blob/main/img/agevshd.png" alt="Age Distribution vs Heart Disease" width="30%"> <img src="https://github.com/josefroslan/heartdisease/blob/main/img/sexvshd.png" alt="Sex Distribution vs Heart Disease" width="30%"><img src="https://github.com/josefroslan/heartdisease/blob/main/img/bpvshd.png" alt="Resting Blood Pressure Distribution vs Heart Disease" width="30%"><img src="https://github.com/josefroslan/heartdisease/blob/main/img/cholvshd.png" alt="Cholesterol Distribution vs Heart Disease" width="30%"><img src="https://github.com/josefroslan/heartdisease/blob/main/img/hrvshd.png" alt="Maximum Heart Rate Distribution vs Heart Disease" width="30%"><img src="https://github.com/josefroslan/heartdisease/blob/main/img/corrheatmap.png" alt="Correlation Heatmap" width="35%">
@@ -89,5 +88,7 @@ We would like to acknowledge the following resources, libraries, tools, and sour
 
 These resources, libraries, and tools have played a crucial role in our project's development, and we are grateful for their contributions.
 
-
+## License
+- This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+- This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
 
